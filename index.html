@@ -1,0 +1,48 @@
+  <!DOCTYPE html>
+  <html>
+
+  <head>
+    <title>Todo Angular App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script type="text/javascript">
+      var app = angular.module('Todo', []);
+
+      app.controller('TodoCtrl', function($scope) {
+
+        $scope.todos = [
+          {text:'Learn AngularJS', done:false},
+          {text:'Build an app', done:false}
+        ];
+
+      });
+      
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.css">
+  </head>
+
+  <body ng-app="Todo">
+    <div ng-controller="TodoCtrl">
+
+      <h2>Todo App</h2>
+
+      <form class="form-horizontal">
+        <input type="text">
+        <button class="btn">Add</button>
+      </form>
+
+      <h4>Todo List</h4>
+
+      <ul class="todo-list">
+        <li ng-repeat="todo in todos">
+          <input type="checkbox"/>
+          <span>{{todo.text}}</span>
+        </li>
+      </ul>
+
+      <button class="btn-large">Clear Completed</button>
+    </div>
+  </body>
+
+  </html>
+
+
