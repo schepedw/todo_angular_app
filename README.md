@@ -1,5 +1,11 @@
 # todo_angular_app
-Todo app built on AngularJS
+Build Todo app on AngularJS
+
+1) ADD todo item to the list
+
+2) Check/Mark off completed items
+
+3) Clear Completed Items
 
 References:
 
