@@ -1,10 +1,16 @@
 # todo_angular_app
 Todo app built on AngularJS
 
-[What is AngularJS?](https://docs.angularjs.org/guide/introduction)
+References:
 
-[Conceptual Overview](https://docs.angularjs.org/guide/concepts)
+[What is AngularJS?](https://docs.angularjs.org/guide/introduction)
 
 [Data Binding](https://docs.angularjs.org/guide/databinding)
 
 [Directives](https://docs.angularjs.org/guide/directive)
+
+[Controllers](https://docs.angularjs.org/guide/controller)
+
+[Scope](https://docs.angularjs.org/guide/scope)
+
+[Conceptual Overview](https://docs.angularjs.org/guide/concepts)
